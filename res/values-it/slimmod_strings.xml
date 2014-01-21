@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
   ~ Copyright (C) 2013 The Android Open Source Project
-  ~ Copyright (C) 2015 SlimRoms
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -14,19 +13,14 @@
   ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License
-  -->
+   -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <string name="onscreenMoreMenuText">More menu</string>
-    <string name="menu_start_record">Record call</string>
-    <string name="menu_stop_record">Stop recording</string>
-    <string name="recording_time_text">Recording</string>
-
-    <!-- Text for the onscreen "Blacklist" button -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- Text for the onscreen "Blacklist" button -->
     <string name="onscreenBlacklistText">Blacklist</string>
 
     <!-- Blacklist confirmation dialog -->
-    <string name="blacklist_dialog_title">Add to blacklist</string>
-    <string name="blacklist_dialog_message">Future calls from <xliff:g id="number">%s</xliff:g> will be blocked</string>
+    <string name="blacklist_dialog_title">Aggiungi alla blacklist</string>
+    <string name="blacklist_dialog_message">Le future chiamate da <xliff:g id="number">%s</xliff:g> saranno bloccate</string>
 </resources>
