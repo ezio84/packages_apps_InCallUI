@@ -29,4 +29,8 @@
 
     <!-- Description of the down direction in which one can to slide the handle in the phone answer screen. [CHAR LIMIT=NONE] -->
     <string name="description_direction_down">Slide down for <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+
+    <!-- Text for in call recording action -->
+    <string name="onscreenRecordText">Start/stop recording</string>
+    <string name="call_recording_failed_message">Failed to start call recording</string>
 </resources>
