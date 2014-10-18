@@ -18,6 +18,12 @@
 <resources>
     <drawable name="grayBg">#FFCCCCCC</drawable>
 
+    <style name="VerticalSeparator">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
     <!-- Theme for the InCallActivity activity.  This gives us a totally black
          window background instead of the default dark grey.  (We don't just use
          Theme.Black.NoTitleBar directly, since we want any popups or dialogs
