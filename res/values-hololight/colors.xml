@@ -33,7 +33,7 @@
     <drawable name="end_call_disabled_state">#CFCFCF</drawable>
 
     <!-- Button background -->
-    <color name="button_background">#FFFFFF</color>
+    <color name="button_background">#d9d9d9</color>
 
     <!-- Translucent shadow color -->
     <color name="translucent_shadow">#33666666</color>
