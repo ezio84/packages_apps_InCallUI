@@ -91,10 +91,6 @@ public class ProximitySensor implements AccelerometerListener.OrientationListene
         if (mProximityWakeLock != null && mProximityWakeLock.isHeld()) {
             mProximityWakeLock.release();
         }
-
-        if (mSensor != null) {
-            mSensor.unregisterListener(this);
-        }
     }
 
     /**
