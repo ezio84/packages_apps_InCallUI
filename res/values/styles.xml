@@ -100,7 +100,7 @@
          <item name="*android:windowAnimationStyle">@style/InCallAnimationStyle</item>
          </style> -->
 
-    <style name="Theme.InCallScreen" parent="@android:style/Theme.Material.Light">
+<!--    <style name="Theme.InCallScreen" parent="@android:style/Theme.Material.Light">
         <item name="android:windowAnimationStyle">@style/InCallAnimationStyle</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -110,7 +110,7 @@
         <item name="android:colorPrimaryDark">@color/dialer_theme_color_dark</item>
         <item name="android:popupMenuStyle">@style/InCallPopupMenuStyle</item>
         <item name="android:actionBarStyle">@style/InCallActionBarStyle</item>
-    </style>
+    </style> -->
 
     <style name="InCallPopupMenuStyle" parent="@android:style/Theme.Material.Light">
         <item name="android:textColorPrimary">@color/popup_menu_color</item>
