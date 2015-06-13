@@ -273,7 +273,8 @@ public class CallButtonPresenter extends Presenter<CallButtonPresenter.CallButto
                 public void onClick(DialogInterface dialog, int which) {
                     Log.d(this, "hanging up due to blacklist: " + mCall.getId());
                     TelecomAdapter.getInstance().disconnectCall(mCall.getId());
-                    BlacklistUtils.addOrUpdate(context, mCall.getNumber(), BlacklistUtils.BLOCK_CALLS, BlacklistUtils.BLOCK_CALLS);
+                    BlacklistUtils.addOrUpdate(context, mCall.getNumber(),
+                        BlacklistUtils.BLOCK_CALLS, BlacklistUtils.BLOCK_CALLS);
                 }
             })
             .setNegativeButton(R.string.pause_prompt_no, null)
